@@ -1,0 +1,6 @@
+layout:
+-home
+-projects
+-skills and experience
+-contact
+-my journey

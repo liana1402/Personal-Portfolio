@@ -1,0 +1,35 @@
+
+/* navbar */
+.navbar{
+    display: block;
+}
+.navbar-list{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 0 0 550px;
+    margin: 0;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    color: #001219;
+    font-weight: 600;
+}
+.navbar-list a{
+    color: #001219;
+}
+.hamburger{
+    display: none;
+}
+
+/* home body */
+.body-container{
+    flex-direction: row;
+    padding: 50px;
+}
+.body-container img{
+    width: 60%;
+}
+.about-me{
+    width: 75%;
+}
