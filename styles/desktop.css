@@ -6,8 +6,7 @@
 .navbar-list{
     position: relative;
     display: flex;
-    justify-content: space-evenly;
-    padding: 0 0 0 550px;
+    justify-content: flex-end;
     margin: 0;
     top: 0;
     right: 0;
@@ -18,18 +17,39 @@
 .navbar-list a{
     color: #001219;
 }
+.navbar-list a:hover{
+    color: #005F73;
+    cursor: pointer;
+}
 .hamburger{
     display: none;
 }
 
-/* home body */
-.body-container{
+/* home */
+.index-body-container{
     flex-direction: row;
     padding: 50px;
 }
-.body-container img{
-    width: 60%;
+.index-body-container img{
+    width: 55%;
+}
+.index-body-container img:hover{
+    width: 57%;
 }
 .about-me{
     width: 75%;
+}
+.about-me p{
+    font-size: 19px;
+}
+.about-me .quick-contact{
+    font-size: 15px;
+    padding: 0 15px;
+}
+/* contact */
+.contact-body-container{
+    padding: 50px;
+}
+.contact-card:hover{
+    cursor: pointer;
 }
