@@ -120,22 +120,28 @@ body a{
     margin-top: 30px;
 }
 .contact-card{
-    /* background-color: #005F73; */
-    background-image: linear-gradient(120deg, #0A9396, #005F73);
-    width: 250px;
-    aspect-ratio: 1/1;
-    border-radius: 6px;
-    margin: 5%;
-    box-shadow: 3px 3px 10px #001219;
+    background-color: #9BD5C2;
+    color: #001219;
+    width: 350px;
+    aspect-ratio: 2/1.5;
+    border-radius: 2px;
+    margin: 10%;
+    box-shadow: 2px 1px 10px #001219;
+    transition: 0.4s;
 }
 .circle-icon{
     display: inline-block;
     position: relative;
-    background-color: #001219;
-    width: 60px;
+    background-color: #005F73;
+    width: 65px;
     aspect-ratio: 1/1;
     border-radius: 100%;
     top: -30px;
     left: 40%;
     z-index: 1;
+    text-align: center;
+}
+.contact-card-content p{
+    padding: 0 5px;
+    margin: 10px 0px;
 }

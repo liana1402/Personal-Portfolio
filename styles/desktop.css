@@ -34,7 +34,7 @@
     width: 55%;
 }
 .index-body-container img:hover{
-    width: 57%;
+    transform: scale(1.02);
 }
 .about-me{
     width: 75%;
@@ -50,6 +50,9 @@
 .contact-body-container{
     padding: 50px;
 }
+.contact-card{
+    margin: 5%;
+}
 .contact-card:hover{
-    cursor: pointer;
+    transform: scale(1.02);
 }
