@@ -17,10 +17,6 @@
 .navbar-list a{
     color: #001219;
 }
-.navbar-list a:hover{
-    color: #005F73;
-    cursor: pointer;
-}
 .hamburger{
     display: none;
 }

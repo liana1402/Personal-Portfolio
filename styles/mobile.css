@@ -10,6 +10,7 @@ body{
 }
 body a{
     text-decoration: none;
+    cursor: pointer;
 }
 
 /* navbar */
@@ -43,6 +44,9 @@ body a{
 }
 .navbar-list a{
     color: #FAF7EC;
+}
+.navbar-list a:hover{
+    color: #005F73;
 }
 .hamburger{
     display: block;
@@ -133,15 +137,30 @@ body a{
     display: inline-block;
     position: relative;
     background-color: #005F73;
-    width: 65px;
-    aspect-ratio: 1/1;
+    color: #FAF7EC;
+    font-size: 30px;
+    padding: 15px 17px;
     border-radius: 100%;
     top: -30px;
     left: 40%;
     z-index: 1;
     text-align: center;
+    line-height: 1;
+}
+.contact-card-content{
+    padding: 0 20px 20px 20px;
+    margin-top: -10px;
 }
 .contact-card-content p{
     padding: 0 5px;
-    margin: 10px 0px;
+    margin: 5px 0px;
+}
+.contact-card-content a{
+    color: #002B3C;
+}
+.contact-card-content a:hover{
+    color: #005F73;
+}
+#linkedin-text, #email-text{
+    margin-top: 15px;
 }
