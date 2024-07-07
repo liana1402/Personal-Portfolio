@@ -22,9 +22,11 @@
 }
 
 /* home */
+.contact-body-container, .index-body-container, .projects-body-container{
+    padding: 50px 50px 0 50px;
+}
 .index-body-container{
     flex-direction: row;
-    padding: 50px;
 }
 .index-body-container img{
     width: 55%;
@@ -43,12 +45,13 @@
     padding: 0 15px;
 }
 /* contact */
-.contact-body-container{
-    padding: 50px;
-}
 .contact-card{
     margin: 5%;
+    aspect-ratio: 2/1.5;
+    min-height: 0;
 }
 .contact-card:hover{
     transform: scale(1.02);
 }
+
+/* projects */
