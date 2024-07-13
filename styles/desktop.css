@@ -17,6 +17,29 @@
 .navbar-list a{
     color: #001219;
 }
+#navbar-home a, #navbar-projects a{
+    color: #9BD5C2;
+}
+#navbar-home a:hover, #navbar-projects a:hover{
+    color: #BB3E03;
+}
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 147px;
+    transform: rotateY(180deg);
+}
+
 .hamburger{
     display: none;
 }
@@ -30,9 +53,12 @@
 }
 .index-body-container img{
     width: 55%;
+    position: relative;
+    left: 10%;
 }
 .index-body-container img:hover{
     transform: scale(1.02);
+    border: 3px solid #CA6702;
 }
 .about-me{
     width: 75%;
@@ -55,3 +81,8 @@
 }
 
 /* projects */
+
+/* footer */
+.footer hr{
+    width: 400px;
+}

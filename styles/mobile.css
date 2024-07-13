@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+html{
+    scroll-behavior: smooth;
+}
 body{
     padding: 5px;
     min-height: 100dvh;
     background-attachment: fixed;
-    background-image: linear-gradient(120deg, #94D2BD, #94D2BD, #0A9396);
+    background-color: #002B3C;
+    /* background-image: radial-gradient(at 80% -100px, #9BD5C2 5%, #002B3C 60%); */
     color: #001219;
     font-family: "Poppins", sans-serif;
 }
@@ -46,8 +50,29 @@ body ul{
     color: #FAF7EC;
 }
 .navbar-list a:hover{
-    color: #005F73;
+    color: #BB3E03;
 }
+
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+        height: 99px;
+}
+
+.wave .shape-fill {
+    fill: #9BD5C2;
+}
+
 .hamburger{
     display: block;
     position: relative;
@@ -58,6 +83,7 @@ body ul{
     background: none;
     outline: none;
     border: none;
+    z-index: 10;
 }
 .hamburger .bar, .hamburger:after, .hamburger:before{
     content: '';
@@ -71,33 +97,47 @@ body ul{
 }
 .hamburger.is-active:before{
     transform: rotate(-45deg) translate(-8px, 6px);
+    background-color: #CA6702;
 }
 .hamburger.is-active:after{
     transform: rotate(45deg) translate(-9px, -7px);
+    background-color: #CA6702;
 }
 .hamburger.is-active .bar{
     opacity: 0;
 }
 
 /* home */
+.color-red{
+    color: #CA6702;
+    font-weight: 600;
+}
 .index-body-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .index-body-container img{
     width: 80%;
-    position: relative;
-    left: 10%;
     margin: 20px 0;
     border: 3px solid #001219;
     border-radius: 10px;
     transition: 0.4s;
 }
+.index-body-container .image{
+    display: flex;
+    justify-content: center;
+}
 .about-me{
     padding: 0 20px;
 }
 .about-me h1{
+    font-size: 45px;
+    color: #CA6702;
     margin: 0;
+}
+.about-me-main{
+    color: #68D8D6;
 }
 .about-me p{
     padding: 0 10px;
@@ -105,26 +145,30 @@ body ul{
 .quick-contact{
     margin: 0;
     font-size: 13px;
+    color: #CA6702;
+    font-weight: 600;
 }
 
 /* contact */
 .contact-body-container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .contact-body-container h2, .projects-body-container h2{
     padding: 0 20px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
+    color: #CA6702;
+    max-width: 50%;
 }
 .contact-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 30px;
 }
 .contact-card{
-    background-color: #9BD5C2;
+    background-color: #93CDBB;
     color: #001219;
     width: 350px;
     min-height: 300px;
@@ -136,7 +180,7 @@ body ul{
 .circle-icon{
     display: inline-block;
     position: relative;
-    background-color: #005F73;
+    background-color: #CA6702;
     color: #FAF7EC;
     font-size: 30px;
     padding: 15px 17px;
@@ -159,13 +203,42 @@ body ul{
     color: #005779;
 }
 .contact-card-content a:hover{
-    color: #03839d;
+    color: #CA6702;
 }
 #linkedin-text, #email-text{
     margin-top: 15px;
 }
 
 /* projects */
+.projects-list{
+    margin-bottom: 70px;
+    margin-left: 50px;
+}
+.projects-list h2{
+    color: #CA6702;
+    font-size: 25px;
+}
+.projects{
+    list-style: circle;
+    padding-left: 80px;
+}
+.projects li{
+    margin-bottom: 10px;
+}
+.projects li::marker{
+    color: #68D8D6;
+}
+.projects a{
+    color: #68D8D6;
+}
+.projects a:hover{
+    color: #CA6702;
+}
+
+.projects-body-container h1{
+    color: #CA6702;
+    font-size: 32px;
+}
 .project-card{
     padding: 0 60px;
 }
@@ -201,6 +274,7 @@ body ul{
     grid-column-start: 1;
     overflow: hidden;
     min-width: 0;
+    color: #68D8D6;
 }
 .projects-body-container hr{
     width: 900px;
@@ -214,14 +288,13 @@ body ul{
 .footer{
     text-align: center;
     font-size: 15px;
-    margin-top: 35px;
 }
 .footer p{
     margin: 0;
+    color: #94D2BD;
 }
 .footer hr{
-    width: 400px;
     height: 1.5px;
-    background: linear-gradient(to right, transparent, #001219, transparent);
+    background: linear-gradient(to right, transparent, #94D2BD, transparent);
     border: none;
 }
