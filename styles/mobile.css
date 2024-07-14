@@ -53,24 +53,19 @@ body ul{
     color: #BB3E03;
 }
 
-.wave {
+.website-divider-container-110428 {
+    height: 100%;
+}
+  
+.divider-img-110428{
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.wave svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-        height: 99px;
-}
-
-.wave .shape-fill {
-    fill: #9BD5C2;
+    height: 187px;
+    
+    transform: scale(1, -1);
+    top:0px;
+    left: 0px;
+    fill: rgb(155, 213, 194)
 }
 
 .hamburger{
