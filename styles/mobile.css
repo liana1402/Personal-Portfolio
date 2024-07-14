@@ -107,10 +107,11 @@ body ul{
     color: #CA6702;
     font-weight: 600;
 }
-.index-body-container{
+.index-body-container, .contact-body-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-top: 100px;
 }
 .index-body-container img{
     width: 80%;
@@ -145,11 +146,6 @@ body ul{
 }
 
 /* contact */
-.contact-body-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 .contact-body-container h2, .projects-body-container h2{
     padding: 0 20px;
     font-size: 25px;
