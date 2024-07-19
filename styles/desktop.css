@@ -14,6 +14,9 @@
     color: #001219;
     font-weight: 600;
 }
+.navbar-list-item{
+    padding: 10px 3%;
+}
 .navbar-list a{
     color: #001219;
 }
@@ -44,10 +47,16 @@
     display: none;
 }
 
-/* home */
-.contact-body-container, .index-body-container, .projects-body-container{
+/* shared css */
+.contact-body-container, .index-body-container, .projects-body-container, .skills-body-container{
     padding: 90px 50px 0 50px;
 }
+
+.contact-body-container h2, .projects-body-container h2, .skills-body-container h2{
+    max-width: 60%;
+}
+
+/* home */
 .index-body-container{
     flex-direction: row;
 }
@@ -81,6 +90,29 @@
 }
 
 /* projects */
+.projects-list{
+    margin-left: 50px;
+}
+.projects{
+    padding-left: 80px;
+}
+.project-card{
+    padding: 0 60px;
+}
+.project-card-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 330px 330px;
+    gap: 20px;
+}
+.grid-text-1{
+    padding: 0 50px;
+}
+
+/* skills */
+.skills-body-container h2{
+    margin-left: 50px;
+}
 
 /* footer */
 .footer hr{
