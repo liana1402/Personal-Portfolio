@@ -6,6 +6,7 @@
     <title>My journey</title>
     <link rel="stylesheet" href="styles/mobile.css">
     <link rel="stylesheet" media="only screen and (min-width:720px)" href="styles/desktop.css">
+    <link rel="shortcut icon" href="#" />
 </head>
 <body>
     <header>
@@ -29,11 +30,63 @@
             </ul>
         </navbar>
     </header>
+
+    <div class="journey-body-container">
+        <div class="switch-container">
+            <h3>My journey</h3>
+            <label class="switch">
+                <input id="switch" type="checkbox">
+                <span class="slider"></span>
+            </label>
+            <h3>My experience</h3>
+        </div>
+        
+        <div>
+            <div id="journey-page" class="journey-page">
+                <div class="vl">
+                    <div id="dot-1" class="vl-dot"></div>
+                    <div id="dot-2" class="vl-dot"></div>
+                    <div id="dot-3" class="vl-dot"></div>
+                </div>
+                <div>
+                    <div class="journey-card">
+                        <h1 class="title">TITLE 1 <span class="title-date">DATE</span></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsa perspiciatis minima possimus iusto doloremque rerum ipsum, distinctio doloribus autem quaerat. Ullam minima nostrum deleniti reprehenderit. Earum, repellendus! Cumque, quas! </p>
+                    </div>
+                    <div class="journey-card">
+                        <h1 class="title">TITLE 1 <span class="title-date">DATE</span></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsa perspiciatis minima possimus iusto doloremque rerum ipsum, distinctio doloribus autem quaerat. Ullam minima nostrum deleniti reprehenderit. Earum, repellendus! Cumque, quas!</p>
+                    </div>
+                    <div class="journey-card">
+                        <h1 class="title">TITLE 1 <span class="title-date">DATE</span></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ipsa perspiciatis minima possimus iusto doloremque rerum ipsum, distinctio doloribus autem quaerat. Ullam minima nostrum deleniti reprehenderit. Earum, repellendus! Cumque, quas!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="experience-page" class="experience-page">
+                <div class="experience-card">
+                    <h1 class="title">TITLE <span class="title-date">DATE</span></h1>
+                    <p>TEXT</p>
+                </div>
+                <div class="experience-card">
+                    <h1 class="title">TITLE <span class="title-date">DATE</span></h1>
+                    <p>TEXT</p>
+                </div>
+                <div class="experience-card">
+                    <h1 class="title">TITLE <span class="title-date">DATE</span></h1>
+                    <p>TEXT</p>
+                </div>
+            </div>
+        </div>
+    </div>
     
-    <footer class="footer">
+    <footer id="journey-footer" class="footer">
         <hr>
         <p>Website created by Liana Asef</p>
     </footer>
+
     <script src="js/main.js"></script>
+    <script src="js/swap-switch.js"></script>
 </body>
 </html>

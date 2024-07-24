@@ -48,29 +48,29 @@
 }
 
 /* shared css */
-.contact-body-container, .index-body-container, .projects-body-container, .skills-body-container{
-    padding: 90px 50px 0 50px;
+.contact-body-container, .index-body-container, .projects-body-container, .skills-body-container, .journey-body-container{
+    padding: 90px 50px 0;
 }
 
-.contact-body-container h2, .projects-body-container h2, .skills-body-container h2{
+.contact-body-container h2, .projects-body-container h2, .skills-body-container h2, .journey-body-container h2{
     max-width: 60%;
 }
 
 /* home */
 .index-body-container{
     flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
 }
 .index-body-container img{
-    width: 55%;
     position: relative;
-    left: 10%;
 }
 .index-body-container img:hover{
     transform: scale(1.02);
     border: 3px solid #CA6702;
 }
 .about-me{
-    width: 75%;
+    width: 60%;
 }
 .about-me p{
     font-size: 19px;
@@ -108,10 +108,35 @@
 .grid-text-1{
     padding: 0 50px;
 }
+#up-button{
+    display: none;
+    position: fixed;
+    top: 88vh;
+    left: 94vw;
+    width: 45px;
+    border-radius: 100%;
+    background-color: transparent;
+    border: none;
+    transition: 0.5s;
+}
+#up-button:hover{
+    scale: 110%;
+}
+.fa-arrow-up{
+    display: block;
+    font-size: 40px;
+}
 
 /* skills */
 .skills-body-container h2{
     margin-left: 50px;
+    margin-bottom: 70px;
+}
+.skills-list{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 40px 10px;
+    padding-left: 100px;
 }
 
 /* footer */
