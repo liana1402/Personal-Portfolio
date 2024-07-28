@@ -88,6 +88,9 @@
 .contact-card:hover{
     transform: scale(1.02);
 }
+.contact-container{
+    flex-wrap: nowrap;
+}
 
 /* projects */
 .projects-list{
@@ -102,11 +105,11 @@
 .project-card-content{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 330px 330px;
+    grid-template-rows: 330px 400px;
     gap: 20px;
 }
 .grid-text-1{
-    padding: 0 50px;
+    padding: 0 65px;
 }
 #up-button{
     display: none;
@@ -137,6 +140,11 @@
     grid-template-columns: 50% 50%;
     gap: 40px 10px;
     padding-left: 100px;
+}
+
+/* journey */
+.journey-card{
+    padding: 10px 50px;
 }
 
 /* footer */
