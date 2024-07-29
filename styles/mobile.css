@@ -277,30 +277,42 @@ body ul{
     gap: 0 10px;
 }
 .grid-images-1 img{
-    height: 165px;
+    height: 175px;
     transition: 0.4s;
 }
-#RMintro{
+
+/* column start 1 */
+#RMintro, #Cantorhome, #compcourse{
     grid-column: 1 / span 2;
-}
-#RMaddingredient{
-    grid-column: 3 / span 2;
 }
 #RMaddrecipe{
     grid-column: 1;
     height: 190px;
 }
+
+/* column start 2 */
 #RMpantry{
     grid-column: 2 / span 2;
     height: 180px;
 }
+
+/* column start 3 */
+#RMaddingredient, #Cantorhome2, #map{
+    grid-column: 3 / span 2;
+}
+
+/* column start 4 */
 #RMwhattocook{
     grid-column: 4;
     height: 200px;
 }
+
+#compcourse, #map{
+    margin-top: 35px;
+}
 .grid-images-1 img:hover{
     transition: 0.4s;
-    scale: 1.1;
+    scale: 1.2;
 }
 .grid-text-1{
     grid-column-start: 2;
@@ -346,6 +358,16 @@ body ul{
     bottom: 10px;
     right: 0;
 }
+#db{
+    bottom: 0;
+}
+#wireframedesktop{
+    bottom: 50px;
+    left: 10px;
+}
+#wireframemobile{
+    left: 0;
+}
 .grid-images-2 img:hover{
     opacity: 1;
     z-index: 2;
@@ -358,6 +380,7 @@ body ul{
     overflow: hidden;
     min-width: 0;
     color: #68D8D6;
+    margin-top: 35px;
 }
 .projects-body-container hr{
     height: 1.6px;
