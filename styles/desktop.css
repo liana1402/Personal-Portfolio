@@ -131,6 +131,12 @@
 }
 
 /* skills */
+.skill-title{
+    font-size: 40px;
+}
+.language-title{
+    font-size: 30px;
+}
 .skills-body-container h2{
     margin-left: 50px;
     margin-bottom: 70px;

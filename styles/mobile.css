@@ -113,6 +113,13 @@ body ul{
     font-weight: 600;
     color: #CA6702;
 }
+.project-card a, .skill-card a{
+    color: #68D8D6;
+    font-weight: 500;
+}
+.project-card a:hover, .skill-card a:hover{
+    color: #CA6702;
+}
 
 /* home */
 .color-red{
@@ -249,13 +256,6 @@ body ul{
 }
 .project-card{
     padding: 0 10px;
-}
-.project-card a{
-    color: #68D8D6;
-    font-weight: 500;
-}
-.project-card a:hover{
-    color: #CA6702;
 }
 .project-card img{
     border-radius: 5px;
@@ -398,7 +398,6 @@ body ul{
     display: flex;
     flex-direction: column;
     padding-left: 5vw;
-    margin-bottom: 70px;
 }
 .fa-brands{
     color: #ca6702;
@@ -429,7 +428,7 @@ body ul{
 .skill-card{
     margin-bottom: 50px;
 }
-.skill-title{
+.skill-title, .language-title{
     font-weight: 650;
     font-size: 30px;
     margin: 0;
