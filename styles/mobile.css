@@ -6,8 +6,7 @@ html{
 body{
     padding: 5px;
     min-height: 100dvh;
-    background-attachment: fixed;
-    background-color: #002B3C;
+    background-image: linear-gradient(0deg, #002B3C 99%, #9bd5c2);
     color: #001219;
     font-family: "Poppins", sans-serif;
 }
