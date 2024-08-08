@@ -293,6 +293,15 @@ body ul{
     grid-column: 1 / span 3;
     margin-top: 45px;
 }
+#EERbrowse{
+    grid-column: 1;
+    margin-top: 45px;
+    height: 150px;
+}
+#EERlogin{
+    grid-column: 1 / span 2;
+    height: 150px;
+}
 
 /* column start 2 */
 #RMpantry{
@@ -303,12 +312,19 @@ body ul{
     grid-column: 2 / span 2;
     height: 190px;
 }
-
+#EERcalculate{
+    grid-column: 2 / span 2;
+    z-index: 2;
+}
 /* column start 3 */
 #RMaddingredient, #Cantorhome2, #map{
     grid-column: 3 / span 2;
 }
-
+#EERdashboard{
+    grid-column: 3 / span 2;
+    height: 150px;
+    margin-top: 20px;
+}
 /* column start 4 */
 #RMwhattocook{
     grid-column: 4;
@@ -322,6 +338,12 @@ body ul{
     grid-column: 4;
     margin-top: 45px;
 }
+#EERadd{
+    grid-column: 4;
+    margin-top: 45px;
+    height: 150px;
+    z-index: 1;
+}
 
 #compcourse, #map{
     margin-top: 35px;
@@ -329,6 +351,7 @@ body ul{
 .grid-images-1 img:hover{
     transition: 0.4s;
     scale: 1.2;
+    z-index: 5;
 }
 .grid-text-1{
     grid-column-start: 2;
@@ -394,6 +417,23 @@ body ul{
 #BTnotes2{
     bottom: 0;
     right: 0;
+}
+#EERdashboardmobile{
+    left: 110px;
+    top: 80px;
+}
+#EERbrowsemobile{
+    left: 220px;
+    top: 160px;
+}
+#EERedit{
+    left: 330px;
+    top: 240px;
+}
+#EERrange{
+    right: 0;
+    top: 0;
+    height: 200px;
 }
 
 .grid-images-2 img:hover{
