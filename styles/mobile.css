@@ -279,6 +279,7 @@ body ul{
 .grid-images-1 img{
     height: 175px;
     transition: 0.4s;
+    border: 2px solid #001219;
 }
 
 /* column start 1 */
@@ -295,12 +296,13 @@ body ul{
 }
 #EERbrowse{
     grid-column: 1;
-    margin-top: 45px;
+    margin-top: 80px;
     height: 150px;
 }
-#EERlogin{
+#EERcalculate{
     grid-column: 1 / span 2;
     height: 150px;
+    margin-top: 20px;
 }
 
 /* column start 2 */
@@ -312,7 +314,7 @@ body ul{
     grid-column: 2 / span 2;
     height: 190px;
 }
-#EERcalculate{
+#EERlogin{
     grid-column: 2 / span 2;
     z-index: 2;
 }
@@ -340,7 +342,7 @@ body ul{
 }
 #EERadd{
     grid-column: 4;
-    margin-top: 45px;
+    margin-top: 80px;
     height: 150px;
     z-index: 1;
 }
@@ -358,6 +360,7 @@ body ul{
     overflow: hidden;
     min-width: 0;
     max-width: 640px;
+    min-height: 300px;
     background-color: #CA6702;
     transition: ease-in-out 0.5s;
     align-content: center;

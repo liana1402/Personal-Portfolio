@@ -105,7 +105,6 @@
 .project-card-content{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 330px 420px;
     gap: 20px;
 }
 .grid-text-1{
