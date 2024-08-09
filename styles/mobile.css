@@ -127,6 +127,11 @@ body ul{
     font-weight: 600;
     font-family: "Poppins", sans-serif;
 }
+.color-light-red{
+    color: #c48442;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
 .index-body-container{
     align-items: center;
 }
@@ -558,6 +563,7 @@ body ul{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 .switch-container h3{
     color: #CA6702;
@@ -614,7 +620,7 @@ body ul{
 }
 .journey-card{
     color: #9bd5c2;
-    margin: 25px;
+    margin-left: 20px;
     padding: 10px 0;
 }
 .experience-card{
@@ -629,6 +635,13 @@ body ul{
 }
 .experience-card .title-date, .journey-card .title-date{
     font-size: 15px;
+}
+.journey-card a:hover{
+    color: #9bd5c2;
+}
+.journey-card .title, .experience-card .title{
+    display: flex;
+    flex-direction: column;
 }
 
 .vl{
@@ -645,18 +658,18 @@ body ul{
     left: -6px;
 }
 #dot-1{
-    top: 70px;
+    top: 50px;
 }
 #dot-2{
-    top: 300px;
+    top: 1085px;
 }
 #dot-3{
-    top: 520px;
+    top: 1790px;
 }
 
 #journey-footer{
     position: relative;
-    top: 110vh;
+    top: 400vh;
     padding-bottom: 15px;
 }
 

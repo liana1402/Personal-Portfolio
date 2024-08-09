@@ -150,6 +150,19 @@
 /* journey */
 .journey-card{
     padding: 10px 50px;
+    margin: 25px;
+}
+#journey-footer{
+    top: 180vh;
+}
+#dot-1{
+    top: 70px;
+}
+#dot-2{
+    top: 470px;
+}
+#dot-3{
+    top: 760px;
 }
 
 /* footer */
