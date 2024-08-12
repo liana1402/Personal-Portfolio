@@ -4,15 +4,11 @@ const journeyFooter = document.getElementById("journey-footer");
 const experience = document.getElementById("experience-page");
 const experienceFooter = document.getElementById("experience-footer");
 switchSlider.addEventListener('click', function(){
-    if(switchSlider.checked){
+    if (switchSlider.checked){
         journey.style.display = "none";
-        journeyFooter.style.display = "none";
         experience.style.display = "flex";
-        experienceFooter.style.display = "block";
-    }else{
+    } else {
         journey.style.display = "flex";
-        journeyFooter.style.display = "block"
         experience.style.display = "none";
-        experienceFooter.style.display = "none";
     }
 });

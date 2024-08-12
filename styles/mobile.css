@@ -4,12 +4,16 @@ html{
     scroll-behavior: smooth;
 }
 body{
+    position: relative;
     padding: 5px;
+    margin: 0;
+    padding-bottom: 50px;
     min-height: 100dvh;
     background-attachment: fixed;
     background-color: #002B3C;
     color: #001219;
     font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
 }
 body a{
     text-decoration: none;
@@ -190,8 +194,8 @@ body ul{
     background-color: #93CDBB;
     color: #001219;
     width: 350px;
-    min-height: 300px;
-    border-radius: 2px;
+    min-height: 250px;
+    border-radius: 5px;
     margin: 10%;
     box-shadow: 2px 1px 10px #001219;
     transition: 0.4s;
@@ -502,10 +506,6 @@ body ul{
     padding: 0 10px 0 40px;
     max-width: 80vw;
 }
-.journey-page, .experience-page{
-    position: absolute;
-    width: 90%;
-}
 .journey-card{
     color: #94D2BD;
     margin-left: 20px;
@@ -514,7 +514,7 @@ body ul{
 .experience-card{
     background-color: #194551;
     color: #94D2BD;
-    margin: 10px 0;
+    margin: 10px;
     padding: 10px 30px;
     border-radius: 10px;
 }
@@ -546,21 +546,15 @@ body ul{
     top: 18px;
 }
 
-#journey-footer{
-    display: block;
-    position: relative;
-    top: 400vh;
-    padding-bottom: 15px;
-}
-#experience-footer{
-    display: none;
-    position: relative;
-    top: 470vh;
-    padding-bottom: 15px;
-}
-
 /* footer */
 .footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    padding-bottom: 8px;
+
     text-align: center;
     font-size: 15px;
 }

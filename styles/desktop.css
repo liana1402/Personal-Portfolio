@@ -338,6 +338,7 @@
 .experience-card{
     margin: 10px 0 50px;
     width: 1000px;
+    max-width: 85vw;
 }
 .vl-dot{
     left: -81px;
@@ -351,19 +352,6 @@
     padding: 0 10vw;
     max-width: 70vw;
 }
-
-#journey-footer{
-    top: 190vh;
-}
-#experience-footer{
-    top: 200vh;
-}
-/* .journey-footer{
-    top: 190vh;
-}
-.experience-footer{
-    top: 190vh;
-} */
 
 /* footer */
 .footer hr{
