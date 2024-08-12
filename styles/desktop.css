@@ -59,8 +59,8 @@
 /* home */
 .index-body-container{
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .index-body-container img{
     position: relative;

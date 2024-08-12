@@ -310,6 +310,10 @@ body ul{
     padding: 50px;
     font-weight: 500;
 }
+.grid-text-1 p{
+    display: flex;
+    align-items: center;
+}
 .back1{
     border-radius: 100% 40% 75% 35% / 32% 41% 59% 68%;
 }
