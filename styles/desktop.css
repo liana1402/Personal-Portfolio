@@ -83,7 +83,9 @@
 .contact-card{
     margin: 5%;
     aspect-ratio: 2/1.5;
-    min-height: 0;
+    width: 40%;
+    max-width: 400px;
+    min-height: 220px;
 }
 .contact-card:hover{
     transform: scale(1.02);
@@ -93,14 +95,19 @@
 }
 
 /* projects */
+.projects-body-container{
+    align-items: center;
+}
 .projects-list{
     margin-left: 50px;
+    min-width: 1400px;
 }
 .projects{
     padding-left: 80px;
 }
 .project-card{
     padding: 0 60px;
+    max-width: 1400px;
 }
 .project-card-content{
     display: grid;
@@ -109,6 +116,10 @@
 }
 .grid-text-1{
     padding: 0 65px;
+    font-size: 17px;
+}
+.grid-text-2{
+    font-size: 20px;
 }
 #up-button{
     display: none;
@@ -143,6 +154,7 @@
 .grid-images-2{
     position: relative;
     padding: 30px;
+    height: 400px
 }
 .grid-images-2 img{
     height: 300px;
@@ -308,6 +320,9 @@
 
 
 /* skills */
+.skill-card p{
+    font-size: 20px;
+}
 .skill-title{
     font-size: 40px;
 }
