@@ -118,9 +118,6 @@
     padding: 0 65px;
     font-size: 17px;
 }
-.grid-text-2{
-    font-size: 20px;
-}
 #up-button{
     display: none;
     position: fixed;
@@ -320,9 +317,6 @@
 
 
 /* skills */
-.skill-card p{
-    font-size: 20px;
-}
 .skill-title{
     font-size: 40px;
 }
