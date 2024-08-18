@@ -1,0 +1,14 @@
+/* journey */
+#journey-page{
+    padding:0 20px;
+    max-width: 90%;
+}
+.journey-card{
+    padding: 10px 10px;
+}
+.journey-card .title{
+    flex-direction: column;
+}
+.vl-dot {
+    left: -37px;
+}

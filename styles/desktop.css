@@ -84,14 +84,11 @@
     margin: 5%;
     aspect-ratio: 2/1.5;
     width: 40%;
-    max-width: 400px;
+    max-width: 310px;
     min-height: 220px;
 }
 .contact-card:hover{
     transform: scale(1.02);
-}
-.contact-container{
-    flex-wrap: nowrap;
 }
 
 /* projects */
