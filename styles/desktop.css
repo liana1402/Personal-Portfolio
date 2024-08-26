@@ -97,7 +97,7 @@
 }
 .projects-list{
     margin-left: 50px;
-    min-width: 1400px;
+    min-width: 90%;
 }
 .projects{
     padding-left: 80px;
@@ -112,7 +112,7 @@
     gap: 20px;
 }
 .grid-text-1{
-    padding: 0 65px;
+    padding: 35px 65px;
     font-size: 17px;
 }
 #up-button{
@@ -141,6 +141,7 @@
     justify-content: end;
     justify-items: center;
     gap: 0 10px;
+    position: relative;
 }
 .grid-images-1 img{
     height: 175px;
@@ -193,8 +194,11 @@
 }
 #EERbrowse{
     grid-column: 1;
+    grid-row-start: 2;
     margin-top: 80px;
     height: 150px;
+    position: absolute;
+    left: 0;
 }
 #EERcalculate{
     grid-column: 1 / span 2;
@@ -239,10 +243,12 @@
     height: 160px;
 }
 #EERadd{
-    grid-column: 4;
+    grid-column-start: 3;
+    grid-row-start: 2;
     margin-top: 80px;
     height: 150px;
     z-index: 1;
+    position: absolute;
 }
 #compcourse, #map{
     margin-top: 35px;
@@ -262,14 +268,17 @@
 #RMsavefunction{
     bottom: 10px;
     right: 0;
+    max-height: 250px;
 }
 #db{
     bottom: 0;
+    max-height: 200px;
 }
 #wireframedesktop{
     bottom: 50px;
     left: 10px;
     left: 50px;
+    max-height: 250px;
 }
 #wireframemobile{
     left: 0;
