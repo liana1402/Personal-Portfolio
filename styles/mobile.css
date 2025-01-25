@@ -164,7 +164,7 @@ body ul{
 .about-me-main, .about-me-main a{
     color: #94D2BD;
 }
-.about-me-main a:hover{
+.about-me-main a:hover, .journey-card a:hover{
     color: #CA6702;
 }
 .about-me p{
