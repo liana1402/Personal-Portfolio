@@ -144,13 +144,13 @@ body ul{
     height: 100%;
     margin: 20px 0;
     border: 3px solid #001219;
-    border-radius: 10px;
+    border-radius: 100%;
     transition: 0.4s;
 }
 .index-body-container .image{
     display: flex;
     justify-content: center;
-    width: 300px;
+    max-width: 350px;
 }
 .about-me{
     padding: 0 20px;
