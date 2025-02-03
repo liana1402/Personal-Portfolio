@@ -329,15 +329,20 @@
 .language-title{
     font-size: 30px;
 }
+#langs-container{
+    margin-bottom: 30px;
+}
 .skills-body-container h2{
-    margin-left: 50px;
-    margin-bottom: 70px;
+    margin: 50px;
 }
 .skills-list{
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 40px 10px;
     padding-left: 100px;
+}
+.skill-card{
+    margin-bottom: 0;
 }
 
 /* journey */
